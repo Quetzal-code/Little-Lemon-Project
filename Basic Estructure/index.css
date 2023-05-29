@@ -1,4 +1,8 @@
 
+* {
+    margin:0;
+
+}
 body {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -11,6 +15,10 @@ h1 {
 }
 h2 {
     font-size: 2rem;
+}
+.logo:hover {
+    color: black;
+    transition: 900ms;
 }
 
 
@@ -28,22 +36,30 @@ nav li{
     display: inline-block;
 }
 nav{
+    /*position: fixed;*/
     flex-wrap: wrap;
+    width: 100%;
     gap: 3rem;
     padding: 10px;
     background-color: gray;
+    border-bottom: 1px solid
     
 }
 section{
     display: flex;
     background-color: bisque;
+    margin: 0px;
+ 
 }
 article{
     flex: 1;
+    display: grid;
+    height: 100%;
+    border: 1px solid;
 }
 img{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
 }
 footer{
     display: flex;
