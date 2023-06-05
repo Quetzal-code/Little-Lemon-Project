@@ -88,27 +88,21 @@ footer {
     align-items: center;
   }
   
-  footer .logo-section {
-    flex-grow: 1;
-  }
-  
-  footer .copyright {
-    flex-grow: 1;
-    text-align: right;
-  }
-  
   footer img {
+    display: flex;
     max-width: 100px;
     height: auto;
+    flex-grow: 1; 
   }
   
   footer p {
     font-size: 14px;
     margin-top: 10px;
+    text-align: right;
   }
   
 /* Grid layout for the sections */
-main {
+.otros{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -122,8 +116,6 @@ main {
     border: solid black;
   }
 
-  
-  
   /* Center the content within the first section */
   main section:first-child section {
     text-align: center;
